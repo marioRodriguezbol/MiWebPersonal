@@ -1,101 +1,57 @@
-.footer {
-  margin-top: var(--sectionseparation);
-  background-color: var(--colorp2);
-  padding: 25px;
+#footer {
+  background: #000; 
+  color: #fff;
+  font-size: 14px;
   text-align: center;
-  position: relative;
+  padding: 30px 0;
+  border-top: 1px solid #222; 
 }
 
-.footer-content {
+#footer h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 10px 0;
+}
+
+#footer p {
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0 0 25px 0;
+  color: #888;
+}
+
+.social-links {
+  margin: 0 0 25px 0;
   display: flex;
   justify-content: center;
+  gap: 15px;
+}
+
+.social-links a {
+  font-size: 18px;
+  display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  position: relative;
-}
-
-.footer-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: 50px;
-}
-
-.logo {
-  width: var(--logowidth);
-}
-
-.footer-links {
-  display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 40px;
-  flex-grow: 1;
+  background: #1a1a1a;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  transition: 0.3s;
+  border: 1px solid #333;
+  text-decoration: none;
 }
 
-.link-group ul {
-  list-style: none;
-  padding: 0;
+.social-links a:hover {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  transform: translateY(-3px); 
 }
 
-.link-group ul li {
-  margin-bottom: 10px;
-}
-
-.link-group ul li a {
-  font-size: medium;
-}
-
-.footer-divider {
-  border: 0;
-  height: 1px;
-  background-color: var(--colorprimarydivider);
-  margin: 30px 0;
-}
-
-.footer-icons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-svg {
-  fill: var(--colorsecondary);
-  width: 18px;
-}
-
-svg:hover {
-  fill: var(--coloraccent);
-  transition: var(--transition);
-}
-
-.footer-copyright {
-  margin-top: 2px;
-}
-
-.footer-copyright a {
-  font-size: 0.9em;
-  font-weight: inherit;
-}
-
-a {
-  font-weight: unset;
-}
-
-@media (max-width: 768px) {
-  .footer-content {
-    justify-content: flex-start;
-    flex-direction: column;
-  }
-
-  .footer-icon {
-    position: static;
-    margin-bottom: 20px;
-    margin-left: 0;
-  }
-
-  .footer-links {
-    justify-content: center;
-    gap: 20px;
-  }
+.copyright {
+  border-top: 1px solid #222;
+  padding-top: 20px;
+  color: #666;
+  font-size: 0.9rem;
 }

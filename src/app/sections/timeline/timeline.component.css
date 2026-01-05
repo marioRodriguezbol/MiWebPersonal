@@ -29,7 +29,7 @@ ul {
   max-width: 800px;
 }
 
-/* line */
+
 ul::before {
   content: "";
   grid-column: 1;
@@ -38,14 +38,11 @@ ul::before {
   border-radius: calc(var(--line-w) / 2);
 }
 
-/* columns*/
-
-/* row gaps */
 ul li:not(:last-child) {
   margin-bottom: var(--row-gap);
 }
 
-/* card */
+
 ul li {
   grid-column: 2;
   --inlineP: 1.5rem;
@@ -55,7 +52,7 @@ ul li {
   grid-template-rows: min-content min-content min-content;
 }
 
-/* item-header */
+
 ul li .item-header {
   --item-headerH: 3rem;
   height: var(--item-headerH);
@@ -75,7 +72,6 @@ ul li .item-header {
   border-radius: calc(var(--item-headerH) / 2) 0 0 calc(var(--item-headerH) / 2);
 }
 
-/* item-header flap */
 ul li .item-header::before {
   content: "";
   width: var(--inlineP);
@@ -89,7 +85,7 @@ ul li .item-header::before {
   right: 0;
 }
 
-/* circle */
+
 ul li .item-header::after {
   content: "";
   position: absolute;
@@ -104,7 +100,7 @@ ul li .item-header::after {
   right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
 
-/* item-content */
+
 ul li .item-content {
   background: var(--colorp2);
   position: relative;
@@ -136,7 +132,7 @@ ul li .item-content {
     grid-column: 3;
   }
 
-  /* start second card */
+
   ul li:nth-child(2) {
     grid-row: 2/4;
   }
