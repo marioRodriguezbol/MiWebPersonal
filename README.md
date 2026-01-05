@@ -6,8 +6,7 @@
 
 Bienvenido al repositorio de mi portafolio profesional. Este proyecto es una **Single Page Application (SPA)** desarrollada en Angular que actúa como mi carta de presentación digital, mostrando mi trayectoria académica, habilidades técnicas y proyectos destacados.
 
-🔗 **Ver Demo Online:** [https://mariorodriguezbol.github.io/portfolio/](https://mariorodriguezbol.github.io/portfolio/)
-*(Asegúrate de poner aquí tu enlace real cuando lo tengas)*
+🔗 **Ver Demo Online:** [https://mariorodriguezbol.github.io/MiWebPersonal/]
 
 ## 🚀 Características del Proyecto
 
@@ -40,7 +39,7 @@ Si deseas clonar y ejecutar este proyecto en tu máquina local:
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/mariorodriguezbol/portfolio.git](https://github.com/mariorodriguezbol/portfolio.git)
+    git clone [https://github.com/mariorodriguezbol/MiWebPersonal.git](https://github.com/mariorodriguezbol/MiWebPersonal.git)
     ```
 
 2.  **Instalar dependencias:**
